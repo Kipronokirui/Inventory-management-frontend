@@ -1,0 +1,33 @@
+.main{
+    background-color: #181c20;
+    height:100vh;
+    color:white;
+    overflow: scroll;
+    display:flex;
+    justify-content: center;
+}
+
+.innerContent{
+    width:70%;
+}
+.item{
+    background-color: #21262b;
+    cursor:pointer;
+    padding: 24px;
+    margin-top: 17px;
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+}
+.rightItem{
+    margin-left: 15px;
+}
+.imgContainer{
+    margin: auto;
+}
+.img{
+    border-radius: 50%;
+    -webkit-border-radius:100%;
+    -moz-border-radius:100%;
+    -ms-border-radius:100%;
+    -o-border-radius:100%;
+}
